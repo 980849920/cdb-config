@@ -1,0 +1,17 @@
+zuul:
+  routes:
+    cdb-config:
+      path: /cdb-config/**
+      serviceId: model-config
+#  retryable: true   #关闭全局路由重试机制
+#      retryable: true #路由重试机制，关闭某一服务路由重试机制
+#  ignored-services: '*'
+#zuul:
+#  routes:
+#    model-config: /cdb-config/**
+#zuul:
+#  routes:
+#    cdb-config:
+#      path: /cdb-config/**
+#      url: http://10.45.44.131:1001
+
